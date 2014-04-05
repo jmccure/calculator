@@ -1,4 +1,5 @@
-module KnowsTheDomain
+
+module KnowsTheUserInterface
   def my_account
     @my_account ||= Account.new
   end
@@ -9,7 +10,7 @@ module KnowsTheDomain
 
 
   def teller
-    @teller ||= Teller.new(cash_slot)
+    @teller ||= UserInterface.new
   end
 
 end

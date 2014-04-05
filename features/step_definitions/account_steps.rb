@@ -1,4 +1,4 @@
-World(KnowsTheDomain)
+World(KnowsTheUserInterface)
 
 
 Given /^my account has been credited with (#{CAPTURE_CASH_AMOUNT})$/ do |amount|

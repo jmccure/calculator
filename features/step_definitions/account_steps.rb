@@ -10,5 +10,4 @@ Then /^the balance of my account should be (#{CAPTURE_CASH_AMOUNT})$/ do |amount
   trying_every(0.1).seconds.failing_after(20).tries do
     my_account.balance.should eq (amount)
   end
-
 end

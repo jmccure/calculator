@@ -5,7 +5,6 @@ gem 'service_manager', '0.6.4'
 gem 'activerecord', '3.2.7'
 gem 'sqlite3', '1.3.6'
 
-
 group :test do
   gem 'cucumber', '1.2.1'
   gem 'rspec-expectations', '2.11.2', :require => "spec/expectations"

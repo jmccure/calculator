@@ -11,4 +11,5 @@ group :test do
   gem 'capybara', '2.0.0.beta2'
   gem 'launchy', '2.1.0'
   gem 'anticipate'
+  gem 'database_cleaner', '0.8.0'
 end
